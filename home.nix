@@ -2,11 +2,7 @@
 
 
 {
-  imports =
-  [
-    ./modules/suckless.nix
-  ];
-
+  
   home.username = "haroon";
   home.homeDirectory = "/home/haroon";
   home.stateVersion = "26.05";
@@ -25,7 +21,7 @@
   };
 
   home.file.".config/dwm".source = ./config/dwm;
-
+  home.file.".config/st".source = ./config/st;
 
   home.packages = with pkgs; [
   	neovim
