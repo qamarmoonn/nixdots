@@ -41,6 +41,10 @@
 	enable = true;
 	package = pkgs.emacs;
   };
+  services.syncthing = {
+	enable = true;
+	openDefaultPorts = true;
+  };
 
   users.users."haroon" = {
     isNormalUser = true;
