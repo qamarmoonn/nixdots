@@ -1,0 +1,14 @@
+st - simple terminal
+--------------------
+patches
+- alpha
+- gruvbox
+- scrollback
+- scrollback mouse
+
+keybinds
+- shift + pgup - scroll up
+- shift + pgdown - scroll down
+- ctrl + shift + j - increase size
+- ctrl + shift + k - decrease size
+
