@@ -16,8 +16,8 @@
 
   programs.git = {
   	enable = true;
-	userEmail = "qamarmoon@proton.me";
-	userName = "qamar";
+	settings.user.email = "qamarmoon@proton.me";
+	settings.user.name = "qamar";
   };
 
   home.file.".config/dwm".source = ./config/dwm;
