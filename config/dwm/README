@@ -1,0 +1,15 @@
+dwm - dynamic window manager
+============================
+patches
+- alpha
+- alwayscenter
+- attachbelow
+- hide vacant tabs
+- useless gaps
+
+binds
+- MOD + e	| emacsclient
+- MOD + del	| flameshot (screenshot tool)
+
+misc
+- added support for volume control via the volume knob using wireplumber
