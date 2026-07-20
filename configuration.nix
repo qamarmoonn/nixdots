@@ -32,13 +32,16 @@
 	package = pkgs.dwm.overrideAttrs {
 	  src = ./config/dwm;
 	};
-
     };
 
   };
 
   services.picom.enable = true;
-  
+  services.emacs = {
+	enable = true;
+	package = pkgs.emacs;
+  };
+
   users.users."haroon" = {
     isNormalUser = true;
     description = "qamar";
