@@ -76,6 +76,10 @@
         libXinerama
 	freetype
 	xwallpaper
+	fd
+	pandoc
+	shellcheck
+	bash-language-server
   ];
 
   fonts.packages = with pkgs; [
