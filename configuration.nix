@@ -61,6 +61,8 @@
   environment.systemPackages = with pkgs; [
         neovim
 	emacs
+	gnupg
+	pinentry-curses
  	wget
 	git
 	firefox
