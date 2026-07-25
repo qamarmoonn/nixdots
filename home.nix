@@ -36,6 +36,8 @@
 
 	symbola
 	flameshot
+
+	prismlauncher
   ];
 
   home.sessionPath = [

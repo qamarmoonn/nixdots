@@ -82,6 +82,7 @@
 	pandoc
 	shellcheck
 	bash-language-server
+	obsidian
   ];
 
   fonts.packages = with pkgs; [
