@@ -30,7 +30,8 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "emacs",     NULL,       NULL,       1 << 0,       0,           -1 },
 	{ "firefox",   NULL,       NULL,       1 << 1,       0,           -1 },
-	{ "keepassxc", NULL,       NULL,       1 << 4,       0,           -1 },
+	{ "discord",   NULL,       NULL,       1 << 5,       0,           -1 },
+	{ "keepassxc", NULL,       NULL,       1 << 7,       0,           -1 },
 };
 
 /* layout(s) */
